@@ -1,0 +1,91 @@
+#root {
+  max-width: 1280px;
+  margin: 0 25%;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+body{
+  background-color: #FF6868;
+  color: #ffffff;
+}
+
+input{
+  display: block;
+  background-color: #AED2FF;
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+  font-family: 'Courier New', Courier, monospace;
+  width: 70%;
+  height: 30px;
+  text-align: end;
+  padding: 0px 30px;
+  border-radius: 90px 90px 0px 0px;
+  border: 0px;
+}
+input+input{
+  border-radius:  0px 0px 90px 90px;
+  border-top: 1px solid rgb(167, 167, 167);
+
+}
+.parent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btns{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 10px 0% 0% 9.4%;
+
+
+
+}
+
+.nums{
+  margin: 5px 0px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 5px;
+}
+
+.sidebtns{
+  width: 100%;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button{
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background-color: #AED2FF;
+  border-radius: 20px;
+  border: 0px;
+  color: #9400FF;
+  font-weight: bolder;
+  font-size: larger;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.sidebtns button{
+  height: 40px;
+  width: 100%;
+  border-radius: 20px;
+  margin: 1px;
+}
+
+.all{
+  width: 90%;
+}
+
+button:hover{
+  transition: 0.3s ease;
+  background-color: #FAEF5D;
+  font-size: 2rem;
+}
